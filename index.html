@@ -1,12 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
+
 <body>
-    <h1 class="text-[96px] text-red-800">Hello</h1>
+    <section class="container max-w-screen-xl m-auto flex items-center justify-between py-4">
+        <img src="./assets/images/logo.png" alt="">
+        <ul class="flex gap-8 font-medium text-xl">
+            <li class="hover:text-red-500 "><a href="">Home</a></li>
+            <li class="hover:text-red-500"><a href="">Shop</a></li>
+            <li class="hover:text-red-500"><a href="">About</a></li>
+            <li class="hover:text-red-500"><a href="">Contact</a></li>
+        </ul>
+        <div class="flex gap-4">
+            <span class="material-symbols-outlined">person</span>
+            <span class="material-symbols-outlined">search</span>
+            <span class="material-symbols-outlined">favorite</span>
+            <span class="material-symbols-outlined">shopping_cart</span>
+        </div>
+    </section>
+    <!-- Navigation bar -->
+    <section>
+        <img class="w-full" src="./assets/images/banner.jpg" alt="">
+    </section>
+    <section class="container max-w-screen-xl m-auto mt-16">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="font-semibold text-[40px] ">New Product</h2>
+            <a class="border border-solid border-[#CA8A04] px-4 py-2 font-semibold text-base text-[#CA8A04] hover:bg-red-500 hover:text-white"
+                href="">View All Products</a>
+        </div>
+        <div class="grid grid-cols-4 gap-8">
+            <div>
+                <div class="overflow-hidden">
+                    <img src="./assets/images/product1.jpg" alt="" class="hover:scale-125 duration-1000">
+                </div>
+                <div class="bg-[#F5F5F5] p-4">
+                    <h3 class="font-semibold text-xl">Syltherine</h3>
+                    <p class="text-[#898989] text-base mt-1 mb-2">Stylish cafe chair</p>
+                    <p class="font-semibold text-red-500 mb-3">2.500.000đ</p>
+                    <button
+                        class=" border border-solid border-[#CA8A04] text-[#CA8A04] w-full font-semibold text-base py-2 hover:bg-red-500 hover:text-white"
+                        type="button">Add to cart</button>
+                </div>
+            </div>
+            <div>
+                <div class="overflow-hidden">
+                    <img src="./assets/images/product1.jpg" alt="" class="hover:scale-125 duration-1000">
+                </div>
+                <div class="bg-[#F5F5F5] p-4">
+                    <h3 class="font-semibold text-xl">Leviosa</h3>
+                    <p class="text-[#898989] text-base mt-1 mb-2">Stylish cafe chair</p>
+                    <p class="font-semibold text-red-500 mb-3">1.800.000đ</p>
+                    <button
+                        class=" border border-solid border-[#CA8A04] text-[#CA8A04] w-full font-semibold text-base py-2 hover:bg-red-500 hover:text-white"
+                        type="button">Add to cart</button>
+                </div>
+            </div>
+            <div>
+                <div class="overflow-hidden">
+                    <img src="./assets/images/product1.jpg" alt="" class="hover:scale-125 duration-1000">
+                </div>
+                <div class="bg-[#F5F5F5] p-4">
+                    <h3 class="font-semibold text-xl">Lolito</h3>
+                    <p class="text-[#898989] text-base mt-1 mb-2">Stylish cafe chair</p>
+                    <p class="font-semibold text-red-500 mb-3">2.000.000đ</p>
+                    <button
+                        class=" border border-solid border-[#CA8A04] text-[#CA8A04] w-full font-semibold text-base py-2 hover:bg-red-500 hover:text-white"
+                        type="button">Add to cart</button>
+                </div>
+            </div>
+            <div>
+                <div class="overflow-hidden">
+                    <img src="./assets/images/product1.jpg" alt="" class="hover:scale-125 duration-1000">
+                </div>
+                <div class="bg-[#F5F5F5] p-4">
+                    <h3 class="font-semibold text-xl">Respira</h3>
+                    <p class="text-[#898989] text-base mt-1 mb-2">Stylish cafe chair</p>
+                    <p class="font-semibold text-red-500 mb-3">4.500.000đ</p>
+                    <button
+                        class=" border border-solid border-[#CA8A04] text-[#CA8A04] w-full font-semibold text-base py-2 hover:bg-red-500 hover:text-white"
+                        type="button">Add to cart</button>
+                </div>
+            </div>
+    </section>
+    <!-- End new Product -->
+    <section class="container max-w-screen-xl m-auto mt-16">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="font-semibold text-[40px]">Gallery</h2>
+            <a class="border border-solid border-[#CA8A04] px-4 py-2 font-semibold text-base text-[#CA8A04] hover:bg-red-500 hover:text-white"
+                href="">View All Gallery</a>
+        </div>
+        <div class=" grid grid-cols-3 gap-8">
+            <img src="./assets/images/Rectangle 63.jpg" alt="">
+            <img src="./assets/images/Rectangle 64.jpg" alt="">
+            <img src="./assets/images/Rectangle 65.jpg" alt="">
+            <img src="./assets/images/Rectangle 66.jpg" alt="">
+            <img src="./assets/images/Rectangle 67.jpg" alt="">
+            <img src="./assets/images/Rectangle 68.jpg" alt="">
+        </div>
+    </section>
+    <!-- End Garery -->
+    <section class="container max-w-screen-xl m-auto mt-16">
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="font-semibold text-[40px]">New</h2>
+            <a class="border border-solid border-[#CA8A04] px-4 py-2 font-semibold text-base text-[#CA8A04] hover:bg-red-500 hover:text-white"
+                href="">View All New</a>
+        </div>
+        <div class="grid grid-cols-4 gap-8">
+            <div>
+                <div>
+                    <img src="./assets/images/Rectangle 203.jpg" alt="">
+                </div>
+                <div class="">
+                    <p class="text-[#9CA3AF] font-semibold text-sm flex items-center mb-1 mt-4"><span
+                            class="material-symbols-outlined">calendar_month</span>24/04/2024</p>
+                    <h3 class="font-semibold text-xl mb-3">A bedroom must have something like this</h3>
+                    <a href="" class="text-red-700 font-semibold text-base flex items-center ">Xem chi tiết<span
+                            class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+
+            </div>
+            <div class="">
+                <div>
+                    <img src="./assets/images/Rectangle 200.jpg" alt="">
+                </div>
+                <div class="">
+                    <p class="text-[#9CA3AF] font-semibold text-sm flex items-center mb-1 mt-4"><span
+                            class="material-symbols-outlined">calendar_month</span>24/04/2024</p>
+                    <h3 class="font-semibold text-xl mb-3">A bedroom must have something like this</h3>
+                    <a href="" class="text-red-700 font-semibold text-base flex items-center">Xem chi tiết<span
+                            class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+
+            </div>
+            <div class="">
+                <div>
+                    <img src="./assets/images/Rectangle 201.jpg" alt="">
+                </div>
+                <div class="">
+                    <p class="text-[#9CA3AF] font-semibold text-sm flex items-center mb-1 mt-4"><span
+                            class="material-symbols-outlined">calendar_month</span>24/04/2024</p>
+                    <h3 class="font-semibold text-xl mb-3">A bedroom must have something like this</h3>
+                    <a href="" class="text-red-700 font-semibold text-base flex items-center">Xem chi tiết<span
+                            class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+
+            </div>
+            <div class="">
+                <div>
+                    <img src="./assets/images/Rectangle 202.jpg" alt="">
+                </div>
+                <div class="">
+                    <p class="text-[#9CA3AF] font-semibold text-sm flex items-center mb-1 mt-4"><span
+                            class="material-symbols-outlined">calendar_month</span>24/04/2024</p>
+                    <h3 class="font-semibold text-xl mb-3">A bedroom must have something like this</h3>
+                    <a href="" class="text-red-700 font-semibold text-base flex items-center">Xem chi tiết<span
+                            class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End New -->
+    <section class="bg-[#FFF7ED] py-16 mt-16">
+        <div class="container max-w-screen-xl m-auto grid grid-cols-4 ">
+            <div class="flex gap-5 items-center ml-4">
+                <img src="./assets/images/Vector1.png" alt="">
+                <div>
+                    <h3 class="font-semibold text-xl mb-1">High Quality</h3>
+                    <p class="text-[#898989] ">Crafted from top materials</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center ml-4">
+                <img src="./assets/images/Vector2.png" alt="">
+                <div>
+                    <h3 class="font-semibold text-xl mb-1">24 / 7 Support</h3>
+                    <p class="text-[#898989] ">Dedicated support</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center ml-4">
+                <img src="./assets/images/Vector3.png" alt="">
+                <div>
+                    <h3 class="font-semibold text-xl mb-1">Warranty Protection</h3>
+                    <p class="text-[#898989] ">Over 2 years</p>
+                </div>
+            </div>
+            <div class="flex gap-5 items-center ml-4">
+                <img src="./assets/images/Vector4.png" alt="">
+                <div>
+                    <h3 class="font-semibold text-xl mb-1">Free Shipping</h3>
+                    <p class="text-[#898989] ">Order over 150 $</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End 4 icons -->
+    <footer class="bg-[#262626] text-white pt-16 pb-8">
+        <div class="container max-w-screen-xl m-auto grid grid-cols-4 gap-8 mb-16">
+            <div>
+                <div class="flex items-center mb-4">
+                    <img src="./assets/images/logo2.svg" alt="">
+                    <h1 class="text-[34px] font-semibold ml-2">Furniro</h1>
+                </div>
+                <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Sitemap</h3>
+                <ul>
+                    <li class="mb-4"><a href="">Hemo</a></li>
+                    <li class="mb-4"><a href="">Shop</a></li>
+                    <li class="mb-4"><a href="">About</a></li>
+                    <li class="mb-4"><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Help</h3>
+                <ul>
+                    <li class="mb-4"><a href="">Payment Options</a></li>
+                    <li class="mb-4"><a href="">Returns</a></li>
+                    <li class="mb-4"><a href="">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Location</h3>
+                <ul>
+                    <li class="mb-4"><a href="">support@euphoria.in</a></li>
+                    <li class="mb-4"><a href="">Ahmedabad Main Road</a></li>
+                    <li class="mb-4"><a href="">Udaipur, India- 313002</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <hr class="container m-auto" />
+        <p class="text-center mt-8 ">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
